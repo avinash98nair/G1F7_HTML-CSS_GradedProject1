@@ -1,0 +1,71 @@
+header{
+    height: 80px;
+    text-align: center;
+    background-color: rgb(54, 49, 49);
+  }
+  header h1{
+    color: white;
+    margin: 0px;
+    padding-top: 20px;
+  }
+  nav{
+    background-color: rgb(117, 110, 110);
+    position: sticky;
+    top: 0px;
+  }
+  nav>ul{
+    margin: 0px;
+  }
+  nav>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    
+  }
+  nav>ul>li:hover{
+    background-color: rgb(54, 49, 49);
+  }
+  nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+  }
+  #our-medicines-link{
+    position: relative;
+  }
+  #healthcare-link{
+    position: relative;
+  }
+  .dropdown{
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    background-color: lightblue;
+    padding: 0px;
+    display: none;
+  }
+  #our-medicines-link:hover #our-medicines-link-dropdown{
+    display: block;
+  }
+  #healthcare-link:hover #healthcare-link-dropdown{
+    display: block;
+  }
+  nav>ul>li>ul>li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px 0px;
+  }
+  nav>ul>li>ul>li>a{
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  footer h3{
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding-top: 14px;
+  }
+  footer{
+    background-color: black;
+    height: 50px;
+    
+  }
